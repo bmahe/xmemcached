@@ -1,0 +1,11 @@
+net.rubyeye.xmemcached.example
+net.rubyeye.xmemcached.pressure
+net.rubyeye.xmemcached.helper
+com.google.code.yanf4j.test.unittest.config
+com.google.code.yanf4j.test.unittest
+com.google.code.yanf4j.test.unittest.statistics
+com.google.code.yanf4j.test.unittest.utils
+com.google.code.yanf4j.test.unittest.nio.impl
+com.google.code.yanf4j.test.unittest.buffer
+com.google.code.yanf4j.test.unittest.core.impl
+com.google.code.yanf4j.test.unittest.core
