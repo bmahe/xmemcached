@@ -1,12 +1,13 @@
 -locale
 'en_US'
 -classpath
-'/home/travis/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar:/home/travis/.m2/repository/cglib/cglib/2.1_3/cglib-2.1_3.jar:/home/travis/.m2/repository/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/travis/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/travis/.m2/repository/com/googlecode/hibernate-memcached/1.2/hibernate-memcached-1.2.jar:/home/travis/.m2/repository/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga.jar:/home/travis/.m2/repository/spy/memcached/2.3.1/memcached-2.3.1.jar:/home/travis/.m2/repository/org/springframework/spring/2.5/spring-2.5.jar:/home/travis/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/travis/.m2/repository/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar:/home/travis/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/home/travis/.m2/repository/asm/asm/1.5.3/asm-1.5.3.jar:/home/travis/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar'
+'/home/travis/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/home/travis/.m2/repository/cglib/cglib/2.1_3/cglib-2.1_3.jar:/home/travis/.m2/repository/spy/memcached/2.3.1/memcached-2.3.1.jar:/home/travis/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/home/travis/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/travis/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/travis/.m2/repository/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga.jar:/home/travis/.m2/repository/com/googlecode/hibernate-memcached/1.2/hibernate-memcached-1.2.jar:/home/travis/.m2/repository/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar:/home/travis/.m2/repository/org/springframework/spring/2.5/spring-2.5.jar:/home/travis/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar:/home/travis/.m2/repository/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar:/home/travis/.m2/repository/asm/asm/1.5.3/asm-1.5.3.jar'
 -encoding
 'UTF-8'
 -protected
 -sourcepath
 '/home/travis/build/bmahe/xmemcached/src/main/java'
+-Xdoclint:none
 -author
 -bottom
 'Copyright &#169; 2016. All rights reserved.'
