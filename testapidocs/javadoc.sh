@@ -1,1 +1,1 @@
-/local/downloads/jdk1.8.0_51/jre/../bin/javadoc @options @packages
+/usr/lib/jvm/java-6-openjdk-amd64/jre/../bin/javadoc @options @packages
