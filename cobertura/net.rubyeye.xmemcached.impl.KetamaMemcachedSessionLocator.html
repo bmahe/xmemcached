@@ -223,7 +223,7 @@
 <tr>  <td class="numLineCover">&nbsp;122</td>  <td class="nbHitsCovered"><a title="Line 122: Conditional coverage 100% (2/2).">&nbsp;37</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 122: Conditional coverage 100% (2/2).">                        <span class="keyword">if</span> (alg == HashAlgorithm.KETAMA_HASH) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;123</td>  <td class="nbHitsCovered"><a title="Line 123: Conditional coverage 100% (2/2).">&nbsp;697</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 123: Conditional coverage 100% (2/2).">                                <span class="keyword">for</span> (<span class="keyword">int</span> i = 0; i &lt; numReps / 4; i++) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;124</td>  <td class="nbHitsCovered">&nbsp;680</td>  <td class="src"><pre class="src">&nbsp;                                        <span class="keyword">byte</span>[] digest = HashAlgorithm.computeMd5(sockStr + <span class="string">"-"</span> + i);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;125</td>  <td class="nbHitsCovered"><a title="Line 125: Conditional coverage 100% (2/2).">&nbsp;3399</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 125: Conditional coverage 100% (2/2).">                                        <span class="keyword">for</span> (<span class="keyword">int</span> h = 0; h &lt; 4; h++) {</a></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;125</td>  <td class="nbHitsCovered"><a title="Line 125: Conditional coverage 100% (2/2).">&nbsp;3400</a></td>  <td class="src"><pre class="src">&nbsp;<a title="Line 125: Conditional coverage 100% (2/2).">                                        <span class="keyword">for</span> (<span class="keyword">int</span> h = 0; h &lt; 4; h++) {</a></pre></td></tr>
 <tr>  <td class="numLineCover">&nbsp;126</td>  <td class="nbHitsCovered">&nbsp;2720</td>  <td class="src"><pre class="src">&nbsp;                                                <span class="keyword">long</span> k = (<span class="keyword">long</span>) (digest[3 + h * 4] &amp; 0xFF) &lt;&lt; 24</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;127</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                                                                | (<span class="keyword">long</span>) (digest[2 + h * 4] &amp; 0xFF) &lt;&lt; 16</pre></td></tr>
@@ -257,13 +257,13 @@
   <td class="src"><pre class="src">&nbsp;        <span class="keyword">private</span> List&lt;Session&gt; getSessionList(</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;146</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                        TreeMap&lt;Long, List&lt;Session&gt;&gt; sessionMap, <span class="keyword">long</span> k) {</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;147</td>  <td class="nbHitsCovered">&nbsp;5919</td>  <td class="src"><pre class="src">&nbsp;                List&lt;Session&gt; sessionList = sessionMap.get(k);</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;148</td>  <td class="nbHitsUncovered"><a title="Line 148: Conditional coverage 50% (1/2).">&nbsp;5918</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 148: Conditional coverage 50% (1/2).">                <span class="keyword">if</span> (sessionList == <span class="keyword">null</span>) {</a></span></pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;149</td>  <td class="nbHitsCovered">&nbsp;5918</td>  <td class="src"><pre class="src">&nbsp;                        sessionList = <span class="keyword">new</span> ArrayList&lt;Session&gt;();</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;150</td>  <td class="nbHitsCovered">&nbsp;5919</td>  <td class="src"><pre class="src">&nbsp;                        sessionMap.put(k, sessionList);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;147</td>  <td class="nbHitsCovered">&nbsp;5920</td>  <td class="src"><pre class="src">&nbsp;                List&lt;Session&gt; sessionList = sessionMap.get(k);</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;148</td>  <td class="nbHitsUncovered"><a title="Line 148: Conditional coverage 50% (1/2).">&nbsp;5920</a></td>  <td class="src"><pre class="src"><span class="srcUncovered">&nbsp;<a title="Line 148: Conditional coverage 50% (1/2).">                <span class="keyword">if</span> (sessionList == <span class="keyword">null</span>) {</a></span></pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;149</td>  <td class="nbHitsCovered">&nbsp;5920</td>  <td class="src"><pre class="src">&nbsp;                        sessionList = <span class="keyword">new</span> ArrayList&lt;Session&gt;();</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;150</td>  <td class="nbHitsCovered">&nbsp;5920</td>  <td class="src"><pre class="src">&nbsp;                        sessionMap.put(k, sessionList);</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;151</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;                }</pre></td></tr>
-<tr>  <td class="numLineCover">&nbsp;152</td>  <td class="nbHitsCovered">&nbsp;5919</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> sessionList;</pre></td></tr>
+<tr>  <td class="numLineCover">&nbsp;152</td>  <td class="nbHitsCovered">&nbsp;5920</td>  <td class="src"><pre class="src">&nbsp;                <span class="keyword">return</span> sessionList;</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;153</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;        }</pre></td></tr>
 <tr>  <td class="numLine">&nbsp;154</td>  <td class="nbHits">&nbsp;</td>
@@ -355,6 +355,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 2/2/16 3:52 AM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.0.3 on 2/2/16 8:36 PM.</div>
 </body>
 </html>
